@@ -1,0 +1,9 @@
+d:\documents\visual studio 2015\Projects\ExampleServer2\IDAL\bin\Debug\IDAL.dll
+d:\documents\visual studio 2015\Projects\ExampleServer2\IDAL\bin\Debug\IDAL.pdb
+d:\documents\visual studio 2015\Projects\ExampleServer2\IDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\documents\visual studio 2015\Projects\ExampleServer2\IDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+d:\documents\visual studio 2015\Projects\ExampleServer2\IDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+d:\documents\visual studio 2015\Projects\ExampleServer2\IDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+d:\documents\visual studio 2015\Projects\ExampleServer2\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ExampleServer2\IDAL\obj\Debug\IDAL.dll
+d:\documents\visual studio 2015\Projects\ExampleServer2\IDAL\obj\Debug\IDAL.pdb

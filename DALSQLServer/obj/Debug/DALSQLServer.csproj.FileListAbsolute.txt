@@ -1,0 +1,11 @@
+d:\documents\visual studio 2015\Projects\ExampleServer2\DALSQLServer\bin\Debug\DALSQLServer.dll
+d:\documents\visual studio 2015\Projects\ExampleServer2\DALSQLServer\bin\Debug\DALSQLServer.pdb
+d:\documents\visual studio 2015\Projects\ExampleServer2\DALSQLServer\bin\Debug\IDAL.dll
+d:\documents\visual studio 2015\Projects\ExampleServer2\DALSQLServer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\documents\visual studio 2015\Projects\ExampleServer2\DALSQLServer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+d:\documents\visual studio 2015\Projects\ExampleServer2\DALSQLServer\bin\Debug\IDAL.pdb
+d:\documents\visual studio 2015\Projects\ExampleServer2\DALSQLServer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+d:\documents\visual studio 2015\Projects\ExampleServer2\DALSQLServer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+d:\documents\visual studio 2015\Projects\ExampleServer2\DALSQLServer\obj\Debug\DALSQLServer.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ExampleServer2\DALSQLServer\obj\Debug\DALSQLServer.dll
+d:\documents\visual studio 2015\Projects\ExampleServer2\DALSQLServer\obj\Debug\DALSQLServer.pdb

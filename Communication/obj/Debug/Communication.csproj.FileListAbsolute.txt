@@ -1,0 +1,5 @@
+d:\documents\visual studio 2015\Projects\ExampleServer2\Communication\bin\Debug\Communication.dll
+d:\documents\visual studio 2015\Projects\ExampleServer2\Communication\bin\Debug\Communication.pdb
+d:\documents\visual studio 2015\Projects\ExampleServer2\Communication\obj\Debug\Communication.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\ExampleServer2\Communication\obj\Debug\Communication.dll
+d:\documents\visual studio 2015\Projects\ExampleServer2\Communication\obj\Debug\Communication.pdb

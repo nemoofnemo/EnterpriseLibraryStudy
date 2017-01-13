@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Models", "Models\Models.shproj", "{6775178D-AE19-4D49-9599-85BCD7403E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDAL", "IDAL\IDAL.csproj", "{48C119B0-0ADB-46FF-AE14-BECC5B9E5DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALSQLServer", "DALSQLServer\DALSQLServer.csproj", "{20D7EF2E-7751-4117-A3CD-BEE3C9CA3A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{D729A2C1-CF47-47DC-A9C8-8DA5AED2415F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Util", "Util\Util.shproj", "{3FFDC608-2336-4385-BAB3-17B71FDC460B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication", "Communication\Communication.csproj", "{7585C931-CBD4-4DFC-A6B9-0CFDCC999CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{B9B08BC8-A684-48CA-8BAF-7B9B78D67AB1}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Util\Util.projitems*{3ffdc608-2336-4385-bab3-17b71fdc460b}*SharedItemsImports = 13
+		Models\Models.projitems*{48c119b0-0adb-46ff-ae14-becc5b9e5da4}*SharedItemsImports = 4
+		Models\Models.projitems*{6775178d-ae19-4d49-9599-85bcd7403e4a}*SharedItemsImports = 13
+		Util\Util.projitems*{7585c931-cbd4-4dfc-a6b9-0cfdcc999cbe}*SharedItemsImports = 4
+		Util\Util.projitems*{b9b08bc8-a684-48ca-8baf-7b9b78d67ab1}*SharedItemsImports = 4
+		Util\Util.projitems*{d729a2c1-cf47-47dc-a9c8-8da5aed2415f}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48C119B0-0ADB-46FF-AE14-BECC5B9E5DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C119B0-0ADB-46FF-AE14-BECC5B9E5DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C119B0-0ADB-46FF-AE14-BECC5B9E5DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C119B0-0ADB-46FF-AE14-BECC5B9E5DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D7EF2E-7751-4117-A3CD-BEE3C9CA3A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D7EF2E-7751-4117-A3CD-BEE3C9CA3A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D7EF2E-7751-4117-A3CD-BEE3C9CA3A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D7EF2E-7751-4117-A3CD-BEE3C9CA3A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D729A2C1-CF47-47DC-A9C8-8DA5AED2415F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D729A2C1-CF47-47DC-A9C8-8DA5AED2415F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D729A2C1-CF47-47DC-A9C8-8DA5AED2415F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D729A2C1-CF47-47DC-A9C8-8DA5AED2415F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7585C931-CBD4-4DFC-A6B9-0CFDCC999CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7585C931-CBD4-4DFC-A6B9-0CFDCC999CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7585C931-CBD4-4DFC-A6B9-0CFDCC999CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7585C931-CBD4-4DFC-A6B9-0CFDCC999CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B08BC8-A684-48CA-8BAF-7B9B78D67AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B08BC8-A684-48CA-8BAF-7B9B78D67AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B08BC8-A684-48CA-8BAF-7B9B78D67AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B08BC8-A684-48CA-8BAF-7B9B78D67AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
