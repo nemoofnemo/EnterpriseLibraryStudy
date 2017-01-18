@@ -15,21 +15,15 @@ using System.Threading;
 namespace DALSQLServer
 {
     /// <summary>
-    /// 通过MessageServic.Instance获取实例。
+    ///
     /// </summary>
     public class MessageDAL : DALTemplate<CustomMessage>, IMessageDAL
     {
         /// <summary>
         /// 获取单例
         /// </summary>
-        static private readonly MessageDAL instance = new MessageDAL();
 
-        static public MessageDAL Instance
-        {
-            get { return instance; }
-        }
-
-        private MessageDAL()
+        public MessageDAL()
         {
             
         }

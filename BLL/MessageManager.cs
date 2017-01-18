@@ -14,31 +14,31 @@ namespace BLL
     /// bussiness logic layer.
     /// funtions:
     /// 1.create IMessageService instancs from DALSQLServer.MessageServices.
-    /// 2.create ServerModule instance.
+    /// 2.create ServerModule.
     /// 3.control database.
     /// </summary>
     public class MessageManager
     {
-        private static MessageManager MsgManager = null;
+        private static readonly MessageManager MsgManager = new MessageManager();
         private const int BUF_SIZ = 8192;
         private IMessageDAL ims;
+
+        /// <summary>
+        /// Get Message Manager Instance.
+        /// </summary>
+        public static MessageManager Instance
+        {
+            get { return MsgManager; }
+        }
 
         /// <summary>
         /// constructor
         /// </summary>
         private MessageManager()
         {
-            ims = MessageDAL.Instance;
+            ims = new MessageDAL();
         }
 
-        static public MessageManager GetInstance()
-        {
-            if(MsgManager == null)
-            {
-                MsgManager = new MessageManager();
-            }
-            return MsgManager;
-        }
 
         public bool Insert(string str, SvrCallbackArgs arg)
         {
