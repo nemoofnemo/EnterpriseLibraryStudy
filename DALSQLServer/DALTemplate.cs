@@ -108,6 +108,7 @@ namespace DALSQLServer
             }
 
             //create sql statement and execute query
+            //todo: INSERT INTO table_name (列1, 列2,...) VALUES (值1, 值2,....)
             string sql = "INSERT INTO " + this.tableName + " VALUES(";
             int count = cusAttrList.Count;
 
