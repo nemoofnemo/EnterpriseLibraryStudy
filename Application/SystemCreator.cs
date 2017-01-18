@@ -17,7 +17,7 @@ namespace Application
         public SystemCreator()
         {
             server = new ServerModule();
-            msgManager = MessageManager.GetInstance();
+            msgManager = MessageManager.Instance;
         }
 
         /// <summary>
