@@ -16,3 +16,5 @@ d:\documents\visual studio 2015\Projects\ExampleServer2\Server\bin\Debug\BLL.dll
 d:\documents\visual studio 2015\Projects\ExampleServer2\Server\bin\Debug\Communication.dll
 d:\documents\visual studio 2015\Projects\ExampleServer2\Server\bin\Debug\BLL.pdb
 d:\documents\visual studio 2015\Projects\ExampleServer2\Server\bin\Debug\Communication.pdb
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Server\bin\Debug\Application.dll
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Server\bin\Debug\Application.pdb

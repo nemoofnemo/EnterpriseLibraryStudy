@@ -7,6 +7,8 @@ using IDAL;
 using DALSQLServer;
 using Models;
 using BLL;
+using Application;
+using System.Collections;
 
 namespace Server
 {
@@ -14,8 +16,8 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            MessageManager mm = new MessageManager();
-            mm.StartServer();
+            SystemCreator sc = new SystemCreator();
+            sc.StartServer();
         }
     }
 }

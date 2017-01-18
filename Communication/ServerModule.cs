@@ -7,6 +7,10 @@ using System.Threading;
 
 namespace Communication
 {
+    /// <summary>
+    /// post a task to threadpool for each connection.
+    /// server module should implement ISvrCallback
+    /// </summary>
     public class SvrCallbackArgs
     {
         public Socket socket;
@@ -61,7 +65,7 @@ namespace Communication
         }
 
         /// <summary>
-        /// 
+        /// run in threadpool
         /// </summary>
         /// <param name="obj"></param>
         private void MessageHandler(object obj)

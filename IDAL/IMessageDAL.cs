@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IDAL
 {
-    public interface IMessageService
+    public interface IMessageDAL
     {
         bool Insert(Models.CustomMessage msg);
         bool Delete(int id);

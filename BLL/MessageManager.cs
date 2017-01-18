@@ -19,62 +19,28 @@ namespace BLL
     /// </summary>
     public class MessageManager
     {
+        private static MessageManager MsgManager = null;
         private const int BUF_SIZ = 8192;
-        private ServerModule server;
-        private IMessageService ims;
+        private IMessageDAL ims;
 
         /// <summary>
         /// constructor
         /// </summary>
-        public MessageManager()
+        private MessageManager()
         {
-            server = new ServerModule();
-            ims = MessageService.GetInstance();
+            ims = MessageDAL.Instance;
         }
 
-        /// <summary>
-        /// start Manager
-        /// </summary>
-        public void StartServer()
+        static public MessageManager GetInstance()
         {
-            server.Run(new SvrCallback(Callback));
-        }
-
-        private void Callback(SvrCallbackArgs arg)
-        {
-            byte[] buf = new byte[BUF_SIZ];
-            int count;
-            while((count = arg.socket.Receive(buf, BUF_SIZ, System.Net.Sockets.SocketFlags.None)) != 0)
+            if(MsgManager == null)
             {
-                string str = ASCIIEncoding.ASCII.GetString(buf, 0, count);
-                string[] arr = str.Split(new char[] { ';' });
-
-                if(arr.Length == 1 || arr.Length == 2)
-                {
-                    switch (arr[0])
-                    {
-                        case "insert":
-                            Insert(arr[1], arg);
-                            break;
-                        case "delete":
-                            Delete(arr[1], arg);
-                            break;
-                        case "update":
-                            Update(arr[1], arg);
-                            break;
-                        case "select":
-                            SelectAll(arg);
-                            break;
-                        default:
-                            Console.WriteLine("Invalid Managers Branch.");
-                            break;
-                    }
-                }
+                MsgManager = new MessageManager();
             }
-            
+            return MsgManager;
         }
 
-        private bool Insert(string str, SvrCallbackArgs arg)
+        public bool Insert(string str, SvrCallbackArgs arg)
         {
             bool ret = false;
             try
@@ -117,8 +83,8 @@ namespace BLL
 
             return ret;
         }
-        
-        private bool Delete(string str, SvrCallbackArgs arg)
+
+        public bool Delete(string str, SvrCallbackArgs arg)
         {
             bool ret = false;
             try
@@ -152,7 +118,7 @@ namespace BLL
             return ret;
         }
 
-        private bool Update(string str, SvrCallbackArgs arg)
+        public bool Update(string str, SvrCallbackArgs arg)
         {
             bool ret = false;
             try
@@ -195,14 +161,14 @@ namespace BLL
             return ret;
         }
 
-        private bool SelectAll(SvrCallbackArgs arg)
+        public bool SelectAll(SvrCallbackArgs arg)
         {
             bool ret = false;
             string response = "";
             try
             {
                 IList<CustomMessage> list = ims.SelectAll();
-                response += "ID\tTIMESATMP\tIP\tMESSAGE\n";
+                response += "ID\tTIMESATMP\t\tIP\tMESSAGE\n";
 
                 foreach (var item in list)
                 {

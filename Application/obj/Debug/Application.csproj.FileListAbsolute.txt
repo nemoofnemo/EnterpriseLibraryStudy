@@ -1,0 +1,17 @@
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\Application.dll
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\Application.pdb
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\BLL.dll
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\Communication.dll
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\IDAL.dll
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\DALSQLServer.dll
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\BLL.pdb
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\Communication.pdb
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\IDAL.pdb
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\DALSQLServer.pdb
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\obj\Debug\Application.dll
+D:\Documents\Visual Studio 2015\Projects\ExampleServer2\Application\obj\Debug\Application.pdb
